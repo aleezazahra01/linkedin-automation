@@ -179,13 +179,14 @@ if __name__ == '__main__':
         'email': 'your_email_here',
         'password': 'your_password_here',
         'file_path': r'C:\path\to\resume.pdf',
-        'phone_number': '03001234567',
-        'keywords': 'Python Developer',
-        'location': 'Pakistan',
-        'current_salary': '100000'
+        'phone_number': 'your_number_goes_here',
+        'keywords': 'j*b_your_unemployed_ah_looking_for',
+        'location': 'your_country',
+        'current_salary': 'non_existent_salary'
     }
 
     bot = LinkedinAutomation(data)
     bot.login()
     bot.job_search()
     bot.apply()
+
